@@ -94,4 +94,13 @@ fun Tugas(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(2.dp))
+
+            Text(
+                text = "NIM : 20240140071",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.White
+            )
+
 
