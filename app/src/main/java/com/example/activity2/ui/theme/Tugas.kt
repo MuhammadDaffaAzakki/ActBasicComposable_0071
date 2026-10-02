@@ -23,4 +23,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.activity2.R
 
+@Composable
+fun Tugas(modifier: Modifier = Modifier) {
+
+    val backgroundPainter = painterResource(id = R.drawable.logo_bg)
+
+    val logoPainter = painterResource(id = R.drawable.logo_umy)
+
+    val profilePainter = painterResource(id = R.drawable.logo_profile)
+
 
