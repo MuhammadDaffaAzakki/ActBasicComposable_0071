@@ -64,4 +64,15 @@ fun Tugas(modifier: Modifier = Modifier) {
                 color = Color.LightGray
             )
 
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Image(
+                painter = logoPainter,
+                contentDescription = "Logo Atas",
+                modifier = Modifier
+                    .size(120.dp)
+                    .clip(CircleShape)
+                    .border(2.dp, Color.White, CircleShape),
+                contentScale = ContentScale.Crop
+            )
 
