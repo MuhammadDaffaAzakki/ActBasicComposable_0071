@@ -14,13 +14,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContent {
-            Activity2Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Panggil composable layout utama dengan padding dari Scaffold
-                    TataletakBoxColumnRow(
-                        modifier = Modifier.padding(innerPadding)
-                    )
+
                 }
             }
         }
