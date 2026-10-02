@@ -43,4 +43,15 @@ fun Tugas(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop
         )
 
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier.padding(24.dp)
+        ) {
+            // Teks Judul Utama
+            Text(
+                text = "KARTU TANDA MAHASISWA",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
 
