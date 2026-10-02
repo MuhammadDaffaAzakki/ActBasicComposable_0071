@@ -103,4 +103,17 @@ fun Tugas(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(20.dp))
 
+            Image(
+                painter = profilePainter,
+                contentDescription = "Foto Profil Besar",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(270.dp)
+                    .clip(CircleShape)
+                    .border(3.dp, Color.White, CircleShape)
+            )
+        }
+    }
+}
