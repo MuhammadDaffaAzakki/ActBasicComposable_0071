@@ -76,3 +76,13 @@ fun Tugas(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop
             )
 
+            Spacer(modifier = Modifier.height(20.dp))
+
+            Text(
+                text = "DATA PRIBADI",
+                fontSize = 12.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Yellow
+            )
+
+
