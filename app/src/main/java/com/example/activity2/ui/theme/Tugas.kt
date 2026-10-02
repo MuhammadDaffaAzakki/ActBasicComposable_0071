@@ -55,3 +55,13 @@ fun Tugas(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(6.dp))
+
+            // Teks Sub-judul
+            Text(
+                text = "Universitas Muhammadiyah Yogyakarta",
+                fontSize = 14.sp,
+                color = Color.LightGray
+            )
+
+
