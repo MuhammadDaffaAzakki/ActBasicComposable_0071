@@ -85,4 +85,13 @@ fun Tugas(modifier: Modifier = Modifier) {
                 color = Color.Yellow
             )
 
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Muhammad Daffa Azakki",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+
 
