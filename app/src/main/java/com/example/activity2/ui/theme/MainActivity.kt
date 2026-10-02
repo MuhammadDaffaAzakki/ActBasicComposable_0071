@@ -16,7 +16,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Activity2Theme {
-
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    // Panggil composable layout utama dengan padding dari Scaffold
+                    TataletakBoxColumnRow(
+                        modifier = Modifier.padding(innerPadding)
+                    )
                 }
             }
         }
