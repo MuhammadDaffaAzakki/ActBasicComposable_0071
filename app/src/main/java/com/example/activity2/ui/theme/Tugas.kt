@@ -32,4 +32,15 @@ fun Tugas(modifier: Modifier = Modifier) {
 
     val profilePainter = painterResource(id = R.drawable.logo_profile)
 
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        Image(
+            painter = backgroundPainter,
+            contentDescription = "Background Image",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
 
